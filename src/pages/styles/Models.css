@@ -1,0 +1,589 @@
+@media (min-width: 1287px){
+  #modelsSection {
+    padding: 50px 0;
+    background-color: #ffffff;
+    color: #000;
+    text-align: center;
+  }
+  
+  .modelSegment {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 50px 0;
+    border-bottom: 1px solid #ddd;
+    position: relative;
+  }
+  
+  .modelSegment:nth-child(even) {
+    flex-direction: row-reverse;
+  }
+  
+  .modelImage {
+    flex: 1;
+    margin: 0 20px;
+    position: relative;
+  }
+  
+  .modelImage img {
+    width: 100%;
+    display: block;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    clip-path: polygon(10% 0%, 100% 0%, 90% 100%, 0% 100%);
+  }
+  .modelInfo {
+    flex: 1;
+    margin: 0 20px;
+    text-align: left;
+    padding: 0 50px;
+  }
+  
+  .modelInfo h2 {
+    font-size: 36pt;
+    color: #181818;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+  
+  .modelInfo p {
+    font-size: 16pt;
+    line-height: 1.5;
+  }
+  
+  .modelBtn svg {
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  
+  .modelBtn svg .hexagon {
+    fill: none;
+    stroke: #181818;
+    transition: fill 0.3s ease, stroke 0.3s ease;
+  }
+  
+  .modelBtn svg .icon {
+    fill: none;
+    stroke: #181818;
+    transition: stroke 0.3s ease;
+  }
+  
+  .modelBtn svg:hover .hexagon {
+    fill: #181818;
+    stroke: #ffffff;
+  }
+  
+  .modelBtn svg:hover .icon {
+    stroke: #ffffff;
+  }
+  
+  .backButton {
+    display: inline-block;
+    margin: 20px;
+    padding: 12px 24px;
+    background-color: #333;
+    color: #fff;
+    border: 2px solid #333;
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .backButton:hover {
+    background-color: #555;
+    color: #fff;
+    border-color: #555;
+    transform: scale(1.05);
+  }
+  
+  .backButton:focus {
+    outline: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .backButton:active {
+    background-color: #222;
+    border-color: #222;
+  }
+  
+  .button_buy {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 70px;
+  }
+  
+  .buy_button {
+    display: inline-block;
+    padding: 12px 30px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #ff6200; 
+    border: 2px solid #ff6200;
+    border-radius: 25px;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    
+  }
+  
+  .buy_button:hover {
+    background-color: #e55a00; 
+    border-color: #e55a00;
+    transform: translateY(-3px);
+  }
+  
+  .buy_button:focus {
+    outline: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  #searchInput {
+    width: 300px;
+    padding: 10px 15px;
+    margin: 20px 10px;
+    border: 2px solid #ccc;
+    border-radius: 25px;
+    font-size: 16px;
+    transition: all 0.3s ease-in-out;
+    outline: none;
+  }
+  
+  #searchInput:focus {
+    border-color: #000;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  #searchButton {
+    padding: 10px 20px;
+    margin: 20px 10px;
+    border: none;
+    border-radius: 25px;
+    background-color: #000;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+  }
+  
+  #searchButton:hover {
+    background-color: #555;
+    transform: scale(1.05);
+  }
+  
+  #searchButton:active {
+    background-color: #333;
+    transform: scale(1);
+  }
+  
+  #searchButton:focus {
+    outline: none;
+  }
+  
+  .styledArrowButton {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.2s, background-color 0.2s;
+    position: relative; 
+    z-index: 1; 
+  }
+  
+}
+
+@media (max-width: 1287px) and (min-width: 768px) {
+  #modelsSection {
+    padding: 50px 0;
+    background-color: #ffffff;
+    color: #000;
+    text-align: center;
+  }
+  
+  .modelSegment {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 50px 0;
+    border-bottom: 1px solid #ddd;
+    position: relative;
+  }
+  
+  .modelSegment:nth-child(even) {
+    flex-direction: row-reverse;
+  }
+  
+  .modelImage {
+    flex: 1;
+    margin: 0 20px;
+    position: relative;
+  }
+  
+  .modelImage img {
+    width: 100%;
+    display: block;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    clip-path: polygon(10% 0%, 100% 0%, 90% 100%, 0% 100%);
+  }
+  .modelInfo {
+    flex: 1;
+    margin: 0 20px;
+    text-align: left;
+    padding: 0 50px;
+  }
+  
+  .modelInfo h2 {
+    font-size: 36pt;
+    color: #181818;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+  
+  .modelInfo p {
+    font-size: 16pt;
+    line-height: 1.5;
+  }
+  
+  .modelBtn svg {
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  
+  .modelBtn svg .hexagon {
+    fill: none;
+    stroke: #181818;
+    transition: fill 0.3s ease, stroke 0.3s ease;
+  }
+  
+  .modelBtn svg .icon {
+    fill: none;
+    stroke: #181818;
+    transition: stroke 0.3s ease;
+  }
+  
+  .modelBtn svg:hover .hexagon {
+    fill: #181818;
+    stroke: #ffffff;
+  }
+  
+  .modelBtn svg:hover .icon {
+    stroke: #ffffff;
+  }
+  
+  .backButton {
+    display: inline-block;
+    margin: 20px;
+    padding: 12px 24px;
+    background-color: #333;
+    color: #fff;
+    border: 2px solid #333;
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .backButton:hover {
+    background-color: #555;
+    color: #fff;
+    border-color: #555;
+    transform: scale(1.05);
+  }
+  
+  .backButton:focus {
+    outline: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .backButton:active {
+    background-color: #222;
+    border-color: #222;
+  }
+  
+  .button_buy {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 70px;
+  }
+  
+  .buy_button {
+    display: inline-block;
+    padding: 12px 30px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #ff6200; 
+    border: 2px solid #ff6200;
+    border-radius: 25px;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .buy_button:hover {
+    background-color: #e55a00; 
+    border-color: #e55a00;
+    transform: translateY(-3px);
+  }
+  
+  .buy_button:focus {
+    outline: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  #searchInput {
+    width: 300px;
+    padding: 10px 15px;
+    margin: 20px 10px;
+    border: 2px solid #ccc;
+    border-radius: 25px;
+    font-size: 16px;
+    transition: all 0.3s ease-in-out;
+    outline: none;
+  }
+  
+  #searchInput:focus {
+    border-color: #000;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  #searchButton {
+    padding: 10px 20px;
+    margin: 20px 10px;
+    border: none;
+    border-radius: 25px;
+    background-color: #000;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+  }
+  
+  #searchButton:hover {
+    background-color: #555;
+    transform: scale(1.05);
+  }
+  
+  #searchButton:active {
+    background-color: #333;
+    transform: scale(1);
+  }
+  
+  #searchButton:focus {
+    outline: none;
+  }
+  
+  .styledArrowButton {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.2s, background-color 0.2s;
+    position: relative; 
+    z-index: 1; 
+  }
+  
+}
+
+@media (max-width: 767px) {
+  #modelsSection {
+    padding: 50px 0;
+    background-color: #ffffff;
+    color: #000;
+    text-align: center;
+  }
+  
+  .modelSegment {
+    /* display: flex;
+    flex-direction: row;
+    align-items: center; */
+    padding: 50px 0;
+    border-bottom: 1px solid #ddd;
+    position: relative;
+  }
+  
+  .modelSegment:nth-child(even) {
+    flex-direction: row-reverse;
+  }
+  
+  .modelImage {
+    flex: 1;
+    margin: 0 20px;
+    position: relative;
+  }
+  
+  .modelImage img {
+    width: 100%;
+    display: block;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  }
+  .modelInfo {
+    flex: 1;
+    margin: 0 20px;
+    text-align: left;
+    padding: 0 50px;
+  }
+  .modelInfo p {
+    font-size: 12pt;
+    line-height: 1.5;
+  }
+  
+  .modelBtn svg {
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  
+  .modelBtn svg .hexagon {
+    fill: none;
+    stroke: #181818;
+    transition: fill 0.3s ease, stroke 0.3s ease;
+  }
+  
+  .modelBtn svg .icon {
+    fill: none;
+    stroke: #181818;
+    transition: stroke 0.3s ease;
+  }
+  
+  .modelBtn svg:hover .hexagon {
+    fill: #181818;
+    stroke: #ffffff;
+  }
+  
+  .modelBtn svg:hover .icon {
+    stroke: #ffffff;
+  }
+  
+  .backButton {
+    display: inline-block;
+    margin: 20px;
+    padding: 12px 24px;
+    background-color: #333;
+    color: #fff;
+    border: 2px solid #333;
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .backButton:hover {
+    background-color: #555;
+    color: #fff;
+    border-color: #555;
+    transform: scale(1.05);
+  }
+  
+  .backButton:focus {
+    outline: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .backButton:active {
+    background-color: #222;
+    border-color: #222;
+  }
+  
+  .button_buy {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 70px;
+    left: 20px;
+  }
+  
+  .buy_button {
+    display: inline-block;
+    padding: 12px 30px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #ff6200; 
+    border: 2px solid #ff6200;
+    border-radius: 25px;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .buy_button:hover {
+    background-color: #e55a00; 
+    border-color: #e55a00;
+    transform: translateY(-3px);
+  }
+  
+  .buy_button:focus {
+    outline: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  #searchInput {
+    width: 300px;
+    padding: 10px 15px;
+    margin: 20px 10px;
+    border: 2px solid #ccc;
+    border-radius: 25px;
+    font-size: 16px;
+    transition: all 0.3s ease-in-out;
+    outline: none;
+  }
+  
+  #searchInput:focus {
+    border-color: #000;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  #searchButton {
+    padding: 10px 20px;
+    margin: 20px 10px;
+    border: none;
+    border-radius: 25px;
+    background-color: #000;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+  }
+  
+  #searchButton:hover {
+    background-color: #555;
+    transform: scale(1.05);
+  }
+  
+  #searchButton:active {
+    background-color: #333;
+    transform: scale(1);
+  }
+  
+  #searchButton:focus {
+    outline: none;
+  }
+  
+  .styledArrowButton {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.2s, background-color 0.2s;
+    position: relative; 
+    z-index: 1; 
+  }
+
+}

@@ -1,0 +1,245 @@
+@media (min-width: 1287px){
+  #overview {
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 20px;
+    margin-top: 50px;
+    font-size: 17pt;
+  }
+  
+  #overviewImage {
+    flex: 1;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  #overviewImage img {
+    width: 100%;
+    height: auto;
+    clip-path: polygon(0% 0%, 90% 0%, 100% 100%, 10% 100%);
+    position: relative;
+    right: 150px;
+  }
+  
+  #overviewText {
+    flex: 1;
+    padding: 0 40px;
+  }
+  
+  #overviewText h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  #overviewText p {
+    font-size: 1.2em;
+    line-height: 1.5;
+  }
+
+
+  #exterior {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin-top: 50px;
+    font-size: 17pt;
+  }
+  
+  #exteriorText {
+    text-align: center;
+    max-width: 1000px;
+  }
+  
+  #exteriorText h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  #exteriorText p {
+    font-size: 1.2em;
+    line-height: 1.5;
+  }
+  
+  #exteriorImages {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    flex-wrap: wrap;
+  }
+  
+  .exteriorImage {
+    flex: 1 1 30%;
+    position: relative;
+    overflow: hidden;
+    margin: 10px;
+  }
+  
+  .exteriorImage img {
+    width: 100%;
+    height: auto;
+    clip-path: polygon(0% 0%, 90% 0%, 100% 100%, 10% 100%);
+  }
+}
+@media (max-width: 1287px) and (min-width: 768px) {
+  #overview {
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 20px;
+    margin-top: 50px;
+    font-size: 17pt;
+  }
+  
+  #overviewImage {
+    flex: 1;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  #overviewImage img {
+    width: 100%;
+    height: auto;
+    clip-path: polygon(0% 0%, 90% 0%, 100% 100%, 10% 100%);
+    position: relative;
+    right: 150px;
+  }
+  
+  #overviewText {
+    flex: 1;
+    padding: 0 40px;
+  }
+  
+  #overviewText h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  #overviewText p {
+    font-size: 1.2em;
+    line-height: 1.5;
+  }
+
+
+  #exterior {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin-top: 50px;
+    font-size: 17pt;
+  }
+  
+  #exteriorText {
+    text-align: center;
+    max-width: 1000px;
+  }
+  
+  #exteriorText h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  #exteriorText p {
+    font-size: 1.2em;
+    line-height: 1.5;
+  }
+  
+  #exteriorImages {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    flex-wrap: wrap;
+  }
+  
+  .exteriorImage {
+    flex: 1 1 30%;
+    position: relative;
+    overflow: hidden;
+    margin: 10px;
+  }
+  
+  .exteriorImage img {
+    width: 100%;
+    height: auto;
+    clip-path: polygon(0% 0%, 90% 0%, 100% 100%, 10% 100%);
+  }
+}
+@media (max-width: 767px) {
+  #overview {
+    padding: 20px;
+    margin-top: 50px;
+    font-size: 17pt;
+  }
+  
+  #overviewImage {
+    flex: 1;
+    width: 100%;
+  }
+  
+  #overviewImage img {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  
+  #overviewText {
+    flex: 1;
+    padding: 0 40px;
+  }
+  
+  #overviewText h2 {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+  }
+  
+  #overviewText p {
+    font-size: 0.9em;
+    line-height: 1.5;
+  }
+
+
+  #exterior {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin-top: 50px;
+    font-size: 17pt;
+  }
+  
+  #exteriorText {
+    text-align: center;
+    max-width: 1000px;
+  }
+  
+  #exteriorText h2 {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+  }
+  
+  #exteriorText p {
+    font-size: 0.9em;
+    line-height: 1.5;
+  }
+  
+  #exteriorImages {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    flex-wrap: wrap;
+  }
+  
+  .exteriorImage {
+    flex: 1 1 30%;
+    position: relative;
+    overflow: hidden;
+    margin: 10px;
+  }
+  
+  .exteriorImage img {
+    width: 100%;
+    height: auto;
+  }
+}

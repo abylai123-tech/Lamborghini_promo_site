@@ -1,0 +1,288 @@
+@media (min-width: 1287px){
+    .purchased-items-container {
+        margin-top: 40px;
+    }
+    
+    .purchased-items-container h2 {
+        font-size: 1.8rem;
+        color: #333;
+        margin-bottom: 20px;
+    }
+    
+    .purchased-items-container p {
+        font-size: 1.2rem;
+        color: #666;
+    }
+    
+    .purchased-items-grid {
+        border-radius: 10px;
+        padding: 20px;
+        text-align: center;
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    
+    .purchased-item-card {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 10px;
+        width: 100%; 
+        padding: 15px;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    
+    .purchased-item-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+    }
+    
+    .purchased-item-image {
+        height: 150px;
+        max-width: 100%;
+        border-radius: 8px;
+        object-fit: cover;
+        flex-shrink: 0;
+    }
+    
+    .purchased-item-details {
+        flex-grow: 1;
+    }
+    
+    .purchased-item-details h2 {
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: 10px;
+        color: #333;
+        text-transform: uppercase;
+    }
+    
+    .purchased-item-details p {
+        font-size: 16px;
+        color: #777;
+        margin-bottom: 8px;
+    }
+    
+    .purchased-item-price {
+        font-size: 18px;
+        font-weight: bold;
+        margin-bottom: 10px;
+        color: #e67e22;
+    }
+    
+    .purchased-item-quantity {
+        font-size: 16px;
+        color: #777;
+    }
+    
+    .purchased-item-category {
+        font-size: 14px;
+        color: #777;
+        background: #f1f1f1;
+        padding: 5px 10px;
+        border-radius: 5px;
+        text-transform: uppercase;
+        margin-left: 10px;  
+    }
+    
+}
+@media (max-width: 1287px) and (min-width: 768px) {
+    .purchased-items-container {
+        margin-top: 40px;
+    }
+    
+    .purchased-items-container h2 {
+        font-size: 1.8rem;
+        color: #333;
+        margin-bottom: 20px;
+    }
+    
+    .purchased-items-container p {
+        font-size: 1.2rem;
+        color: #666;
+    }
+    
+    .purchased-items-grid {
+        border-radius: 10px;
+        padding: 20px;
+        text-align: center;
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    
+    .purchased-item-card {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 10px;
+        width: 100%; 
+        padding: 15px;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    
+    .purchased-item-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+    }
+    
+    .purchased-item-image {
+        height: 150px;
+        max-width: 100%;
+        border-radius: 8px;
+        object-fit: cover;
+        flex-shrink: 0;
+    }
+    
+    .purchased-item-details {
+        flex-grow: 1;
+    }
+    
+    .purchased-item-details h2 {
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: 10px;
+        color: #333;
+        text-transform: uppercase;
+    }
+    
+    .purchased-item-details p {
+        font-size: 16px;
+        color: #777;
+        margin-bottom: 8px;
+    }
+    
+    .purchased-item-price {
+        font-size: 18px;
+        font-weight: bold;
+        margin-bottom: 10px;
+        color: #e67e22;
+    }
+    
+    .purchased-item-quantity {
+        font-size: 16px;
+        color: #777;
+    }
+    
+    .purchased-item-category {
+        font-size: 14px;
+        color: #777;
+        background: #f1f1f1;
+        padding: 5px 10px;
+        border-radius: 5px;
+        text-transform: uppercase;
+        margin-left: 10px;  
+    }
+    
+}
+@media (max-width: 767px) {
+  .purchased-items-container {
+    margin-top: 40px;
+}
+
+.purchased-items-container h2 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.purchased-items-container p {
+    font-size: 1.2rem;
+    color: #666;
+}
+
+.purchased-items-grid {
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.purchased-item-card {
+    gap: 10px;
+    width: 100%; 
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.purchased-item-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.purchased-item-image {
+    height: 150px;
+    max-width: 100%;
+    border-radius: 8px;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
+.purchased-item-details {
+    flex-grow: 1;
+}
+
+.purchased-item-details h2 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #333;
+    text-transform: uppercase;
+}
+
+.purchased-item-details p {
+    font-size: 16px;
+    color: #777;
+    margin-bottom: 8px;
+}
+
+.purchased-item-price {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #e67e22;
+}
+
+.purchased-item-quantity {
+    font-size: 16px;
+    color: #777;
+}
+
+.purchased-item-category {
+    font-size: 14px;
+    color: #777;
+    background: #f1f1f1;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    margin-left: 10px;  
+}
+
+}

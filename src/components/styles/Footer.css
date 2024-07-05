@@ -1,0 +1,56 @@
+@media (min-width: 1287px){
+  footer {
+    background-color: #181818;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .footerContent {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+}
+
+
+@media (max-width: 1287px) and (min-width: 768px) {
+  footer {
+    background-color: #181818;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .footerContent {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+}
+
+
+@media (max-width: 767px) {
+  footer {
+    background-color: #181818;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .footerContent {
+    max-width: 100px;
+    margin: 0 auto;
+    padding: 0 10px;
+  }
+}
+

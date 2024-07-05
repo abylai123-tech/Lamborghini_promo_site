@@ -1,0 +1,97 @@
+@media (min-width: 1287px){
+    #newsItem{
+        padding: 110px 250px;
+    }
+    #newsItem h1{
+        font-size: 40pt;
+        text-transform: uppercase;
+    }
+    #newsItem-image {
+        width: 100%; 
+        margin: 0 auto; 
+        margin-top: 60px;
+    }
+    
+    #newsItem-image img {
+        width: 100%; 
+        height: auto; 
+        display: block; 
+    }
+    #newsDate{
+        font-size: 20pt;
+        margin-top: 40px;
+        font-style: italic;
+        color: rgb(100, 100, 100);
+        font-weight: 150;
+    }
+    #newsContent{
+        margin-top: 60px;
+        font-size: 20pt;
+        font-weight: 250;
+    }
+}
+@media (max-width: 1287px) and (min-width: 768px) {
+    #newsItem{
+        padding: 110px 250px;
+    }
+    #newsItem h1{
+        font-size: 40pt;
+        text-transform: uppercase;
+    }
+    #newsItem-image {
+        width: 100%; 
+        margin: 0 auto; 
+        margin-top: 60px;
+    }
+    
+    #newsItem-image img {
+        width: 100%; 
+        height: auto; 
+        display: block; 
+    }
+    #newsDate{
+        font-size: 20pt;
+        margin-top: 40px;
+        font-style: italic;
+        color: rgb(100, 100, 100);
+        font-weight: 150;
+    }
+    #newsContent{
+        margin-top: 60px;
+        font-size: 20pt;
+        font-weight: 250;
+    }
+}
+@media (max-width: 767px) {
+    #newsItem{
+        padding: 20% 10%;
+    }
+    #newsItem h1{
+        font-size: 20pt;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    #newsItem-image {
+        width: 100%; 
+        margin: 0 auto; 
+        margin-top: 60px;
+    }
+    
+    #newsItem-image img {
+        width: 100%; 
+        height: auto; 
+        display: block; 
+    }
+    #newsDate{
+        font-size: 20pt;
+        margin-top: 40px;
+        font-style: italic;
+        color: rgb(100, 100, 100);
+        font-weight: 150;
+    }
+    #newsContent{
+        margin-top: 60px;
+        font-size: 20pt;
+        font-weight: 250;
+    }
+}

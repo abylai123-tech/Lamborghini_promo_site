@@ -1,0 +1,271 @@
+    @media (min-width: 1287px){
+    .slogan {
+        width: 90%;
+        height: 600px;
+        text-align: center;
+        font-size: 40pt;
+        font-weight: 100;
+        padding: 30px;
+        position: relative;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        opacity: 0;
+        transform: translateY(50px);
+        transition: opacity 1s ease-out, transform 1s ease-out;
+    }
+    
+    .slogan.show {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    
+    .logo {
+        transition: transform 0.5s ease;
+    }
+    
+    .logo:hover {
+        transform: scale(1.1);
+    }
+    
+    #sloganStart {
+        height: 100px;
+    }
+    
+    #stylish, #boldly, #fast {
+        position: relative;
+        color: white;
+        font-weight: 1000;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+        background-blend-mode: overlay;
+    }
+    
+    #stylish {
+        clip-path: polygon(10% 0%, 100% 10%, 100% 100%, 10% 90%);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../../assets/images/style.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    #boldly {
+        clip-path: polygon(10% 0%, 100% 10%, 100% 100%, 10% 100%);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../../assets/images/boldly.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    #fast {
+        clip-path: polygon(10% 10%, 100% 5%, 100% 90%, 10% 100%);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../../assets/images/fast.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    #stylishText {
+        margin-left: 80%;
+        margin-top: 5%;
+    }
+    
+    #boldlyText {
+        margin-right: 60%;
+        margin-top: 5%;
+    }
+    
+    #fastText {
+        margin-left: 65%;
+        margin-top: 5%;
+    }
+    
+    #lamborghiniSlogan {
+        margin-bottom: 50px;
+    }
+}
+
+
+@media (max-width: 1287px) and (min-width: 768px) {
+    .slogan {
+        width: 90%;
+        height: 450px;
+        text-align: center;
+        font-size: 30pt;
+        font-weight: 70;
+        padding: 20px;
+        position: relative;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        opacity: 0;
+        transform: translateY(50px);
+        transition: opacity 1s ease-out, transform 1s ease-out;
+    }
+    
+    .slogan.show {
+        opacity: 1; 
+        transform: translateY(0); 
+    }
+    
+    .logo {
+        transition: transform 0.5s ease;
+    }
+    
+    .logo:hover {
+        transform: scale(1.1);
+    }
+    
+    #sloganStart {
+        height: 70px;
+    }
+    
+    #stylish, #boldly, #fast {
+        position: relative;
+        color: white;
+        font-weight: 700;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+        background-blend-mode: overlay;
+    }
+    
+    #stylish {
+        clip-path: polygon(10% 0%, 100% 10%, 100% 100%, 10% 90%);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../../assets/images/style.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    #boldly {
+        clip-path: polygon(10% 0%, 100% 10%, 100% 100%, 10% 100%);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../../assets/images/boldly.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    #fast {
+        clip-path: polygon(10% 10%, 100% 5%, 100% 90%, 10% 100%);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../../assets/images/fast.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    #stylishText {
+        margin-left: 80%;
+        margin-top: 5%;
+    }
+    
+    #boldlyText {
+        margin-right: 60%;
+        margin-top: 5%;
+    }
+    
+    #fastText {
+        margin-left: 65%;
+        margin-top: 5%;
+    }
+    
+    #lamborghiniSlogan {
+        margin-bottom: 35px;
+    }
+}
+
+
+@media (max-width: 767px) {
+    .slogan {
+        width: 90%;
+        height: 300px;
+        text-align: center;
+        font-size: 20pt;
+        font-weight: 50;
+        padding: 8% 15px;
+        position: relative;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        opacity: 0;
+        transform: translateY(50px);
+        transition: opacity 1s ease-out, transform 1s ease-out;
+        margin-top: 10%;
+    }
+    #sloganStart img{
+        height: 70px;
+    }
+    .slogan.show {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    .logo {
+        transition: transform 0.5s ease;
+    }
+    
+    .logo:hover {
+        transform: scale(1.1);
+    }
+    
+    #sloganStart {
+        height: 50px;
+    }
+    
+    #stylish, #boldly, #fast {
+        position: relative;
+        color: white;
+        font-weight: 500;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+        background-blend-mode: overlay;
+        background-position: 50%;
+    }
+    
+    #stylish {
+        clip-path: polygon(3% 0%, 100% 10%, 100% 100%, 3% 90%);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../../assets/images/style.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    #boldly {
+        clip-path: polygon(3% 0%, 100% 10%, 100% 100%, 3% 90%);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../../assets/images/boldly.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    #fast {
+        clip-path: polygon(3% 0%, 100% 10%, 100% 100%, 3% 90%);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../../assets/images/fast.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    #stylishText {
+        margin-left: 70%;
+        margin-top: 5%;
+    }
+    
+    #boldlyText {
+        margin-right: 40%;
+        margin-top: 5%;
+    }
+    
+    #fastText {
+        margin-left: 60%;
+        margin-top: 5%;
+    }
+    
+    #lamborghiniSlogan {
+        margin-bottom: 20px;
+    }
+}
+
+
