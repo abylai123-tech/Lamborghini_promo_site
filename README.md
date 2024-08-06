@@ -1,8 +1,40 @@
-# React + Vite
+# Lamborghini Store
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Этот проект представляет собой веб-сайт для магазина Lamborghini, который включает в себя как фронтенд, так и бэкенд части.
 
-Currently, two official plugins are available:
+## Структура проекта
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Проект разделен на две основные части:
+- `backend`: содержит серверную часть проекта.
+- `frontend`: содержит клиентскую часть проекта.
+
+## Технологии
+
+- Node.js
+- SQL Lite 3
+- npm
+- React
+- Redux
+
+## Установка
+
+### Клонирование репозитория
+
+git clone https://github.com/abylai123-tech/lamborghini_store.git
+cd lamborghini_store
+
+## Запуск проекта
+Backend
+Для запуска серверной части выполните следующие команды:
+
+```bash
+Копировать код
+cd backend
+Frontend
+Для запуска клиентской части выполните следующие команды:
+
+```bash
+Копировать код
+cd frontend
+npm run serve
+Теперь вы можете открыть браузер и перейти по адресу http://localhost:5173, чтобы увидеть работу сайта.
